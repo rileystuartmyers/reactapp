@@ -1,13 +1,13 @@
 ---
 title: "Photo Sorter: C# Photo Sorting Program!"
 excerpt: "Newly developed C# photo sorting software for Windows platforms! This software allows for users to easily and efficiently sort their large collections of photos into neatly labeled folders!"
-coverImage: "../../src/assets/photo-sorter/programScreenshot.jpg"
+coverImage: "../assets/photo-sorter/programScreenshot.jpg"
 date: "2025-08-30"
 author:
   name: Stuart
-  picture: "../../src/assets/authors/self2.jpg"
+  picture: "../assets/authors/self2.jpg"
 ogImage:
-  url: "../../src/assets/photo-sorter/programScreenshot.jpg"
+  url: "../assets/photo-sorter/programScreenshot.jpg"
 ---
 
 ## [__Click here for GitHub Repo.__](https://github.com/rileystuartmyers/Photo-Sorter)

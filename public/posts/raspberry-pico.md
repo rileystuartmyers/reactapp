@@ -1,13 +1,13 @@
 ---
 title: "RC Car w/ Raspberry Pi (Pico)"
 excerpt: "Microcontrollers!! Wooooooahhhh!!"
-coverImage: "../../src/assets/raspberry-pico/cover.jpg"
+coverImage: "../assets/raspberry-pico/cover.jpg"
 date: "2024-03-07"
 author:
   name: Stuart
-  picture: "../../src/assets/authors/self2.jpg"
+  picture: "../assets/authors/self2.jpg"
 ogImage:
-  url: "../../src/assets/raspberry-pico/cover.jpg"
+  url: "../assets/raspberry-pico/cover.jpg"
 ---
 
 ## [__***Click here for GitHub Repo.***__](https://github.com/rileystuartmyers/Raspberry-Pico-RC-car-with-display)

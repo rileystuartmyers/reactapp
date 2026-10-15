@@ -1,13 +1,13 @@
 ---
 title: "Training AI to Identify Animals in the Wild"
 excerpt: "A glimpse into an image classification task and how it's been automated."
-coverImage: "../../src/assets/ohio-smallanimals/deer.jpg"
+coverImage: "../assets/ohio-smallanimals/deer.jpg"
 date: "2025-05-05"
 author:
   name: Stuart
-  picture: "../../src/assets/authors/self2.jpg"
+  picture: "../assets/authors/self2.jpg"
 ogImage:
-  url: "../../src/assets/ohio-smallanimals/deer.jpg"
+  url: "../assets/ohio-smallanimals/deer.jpg"
 ---
 
 ## [__Click here for GitHub Repo.__](https://github.com/rileystuartmyers/OhioSmallAnimalsCNN)
@@ -19,7 +19,7 @@ The dataset contains over 118,000 images, taken from camera traps scattered arou
 
 These images are generally taken by camera traps in order to monitor the activity level and diversity of various species in the area, such as squirrels, foxes, raccoons, etc. As a result, you'll be able to see several amazing pictures captured around Ohio, such as this one!
 
-![Alt text](../../src/assets/ohio-smallanimals/cute.jpg)
+![Alt text](../assets/ohio-smallanimals/cute.jpg)
 ***Image Source: [***OHPARC.org***](https://ohparc.org)***
 
 After handling the image preprocessing (which you can find along with the entire model's .ipynb file in the GitHub link), I then constructed the model with the parameters found in the code snippet below.\
@@ -70,13 +70,13 @@ Each node in the final _Dense_ layer belongs to one of the 48 different animal c
         
     )
 
-![Alt text](../../src/assets/ohio-smallanimals/graph.jpg)
+![Alt text](../assets/ohio-smallanimals/graph.jpg)
 
 And, in order to provide an actual demonstration of the model's performance, below I've assigned it the task of trying to identify what animals reside in each of 9 random images.\
 Above each image, the top-most label is what the model predicts is in the image, and the bottom-most label is what the image actually contains.
 You'll see that it was actually able to correctly identify each and every creature in the images!
 
-![Alt text](../../src/assets/ohio-smallanimals/predictions.jpg)
+![Alt text](../assets/ohio-smallanimals/predictions.jpg)
 
 Awesome!
 
